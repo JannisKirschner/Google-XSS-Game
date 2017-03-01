@@ -4,6 +4,5 @@ Hello there! :)  Here are my solutions/writeups to the google xss game. I've not
 
 SPOILER ALERT! 
 **************
-
 I'd strongly recommend you to try the challenges yourself before reading my writeups!
 These contain major spoilers to the game!
