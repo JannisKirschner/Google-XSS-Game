@@ -1,0 +1,7 @@
+Level3: That sinking feeling...
+********************************************************************
+-In this challenge you're only able to XSS the URL bar.
+-It's not working with every browser! -> chrome worked out 
+-I've added a ' to make the frame#1 unaccessable so the onerror alert gets run.
+
+Solution: http://xss-game.appspot.com/level3/frame#1' onerror="alert('XSS')"
