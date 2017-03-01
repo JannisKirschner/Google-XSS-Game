@@ -1,0 +1,8 @@
+Level2: Persistence is key
+******************************************************************
+-I've XSS'ed it through posting a not available image.
+-Onerror means if the picture is not available it runs the code.
+-The String.fromCharCode creates the word "XSS" from charcode.
+ (88=X 83=S)
+
+Solution: <IMG SRC=/ onerror="alert(String.fromCharCode(88,83,83))"></img>
