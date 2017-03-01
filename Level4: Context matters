@@ -1,0 +1,6 @@
+Level4: Context matters
+***************************
+-Escape the function with ');
+-call the new alert with ('xss
+
+Solution: ');alert('xss
